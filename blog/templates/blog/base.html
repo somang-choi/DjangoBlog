@@ -10,7 +10,12 @@
 
 <body>
 <div class="page-header">
-    <h1><a href="">Somang Blog</a></h1>
+    <h1>
+        <a href="{% url 'post_new' %}" class="top-menu">
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+            <h1><a href="/">Somang Blog</a></h1>
+        </a>
+    </h1>
 </div>
 
 <div class="content container">
